@@ -19,6 +19,7 @@ function createtime() {
     document.getElementById("workboard").innerHTML = work;
   }
 }
+
 setInterval(() => {
   createtime();
 }, 1e3);
